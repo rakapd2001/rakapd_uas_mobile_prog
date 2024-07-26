@@ -11,7 +11,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/library"
+        android:src="@drawable/splash"
         android:layout_centerInParent="true"
         android:padding="25dp"
         />

@@ -88,10 +88,16 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        // memuat data
+        // memuat data awal
         getData();
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        // memuat data setiap kali aktivitas menjadi aktif kembali
+        getData();
+    }
 
     private void getData() {
         progressDialog.show();

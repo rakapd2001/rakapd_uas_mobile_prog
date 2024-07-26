@@ -19,7 +19,7 @@
         android:theme="@style/Theme.Firebase"
         >
         <activity
-            android:name=".SplashScreen"
+            android:name=".DefaultActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -37,7 +37,7 @@
             android:name=".LibraryAdd"
             android:exported="false" />
         <activity
-            android:name=".DefaultActivity"
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
